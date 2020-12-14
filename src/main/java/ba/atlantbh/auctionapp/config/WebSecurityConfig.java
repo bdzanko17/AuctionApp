@@ -85,7 +85,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowedOrigins(Arrays.asList(
-                "http://localhost:300011",
+                "http://localhost:30000011",
                 "https://auction-app.netlify.app",
                 "https://auction-app-test.netlify.app",
                 "https://auction-app-master.netlify.app"
